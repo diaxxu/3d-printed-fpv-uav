@@ -1,6 +1,6 @@
 # VTOL FPV Fixed-Wing UAV Project
 
-![Plane Front](Pics/logo.png)
+![Plane Front](Pics/logo1.png)
 ## Overview
 
 This project is a 3d printed VTOL (Vertical Take-Off and Landing) fixed-wing UAV with FPV (First Person View)  
