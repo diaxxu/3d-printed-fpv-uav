@@ -1,7 +1,7 @@
 # VTOL FPV Fixed-Wing UAV Project
 
 <p align="center">
-  <img src="Pics/logo1.png" alt="Plane Front" />
+ 
    <img src="Pics/logo2.png" alt="Plane Front" />
 </p>
 
@@ -121,6 +121,7 @@ i tried to reduce cost as much but 3d printing literally is so expensive in moro
 
 
 ## Disclaimer
+ <img src="Pics/logo1.png" alt="Plane Front" />
 
 This project is experimental and intended for research and educational purposes.  
 All flight testing must be conducted in safe and controlled environments.
