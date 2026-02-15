@@ -1,6 +1,6 @@
 # VTOL FPV Fixed-Wing UAV Project
-![Plane Front](Pics/plane_front.png)
 
+![Plane Front](Pics/logo.png)
 ## Overview
 
 This project is a 3d printed VTOL (Vertical Take-Off and Landing) fixed-wing UAV with FPV (First Person View)  
@@ -75,6 +75,8 @@ the Firmware thats going to run is Inav its a lighweight program that is capable
 THATS SO SLICK
 -
 ![PALEN](Pics/SIDE.png)
+-
+![Plane Front](Pics/plane_front.png)
 ---
 
 ## Development Roadmap
