@@ -1,6 +1,8 @@
 # VTOL FPV Fixed-Wing UAV Project
 
-![Plane Front](Pics/logo1.png)
+<p align="center">
+  <img src="Pics/logo1.png" alt="Plane Front" />
+</p>
 ## Overview
 
 This project is a 3d printed VTOL (Vertical Take-Off and Landing) fixed-wing UAV with FPV (First Person View)  
@@ -76,19 +78,10 @@ THATS SO SLICK
 -
 ![PALEN](Pics/SIDE.png)
 -
+Render
 ![Plane Front](Pics/plane_front.png)
 ---
 
-## Development Roadmap
-
-- [ ] Airfoil validation (XFOIL / CFD analysis)  
-- [ ] Structural deflection testing of motor outriggers  
-- [ ] Center of Gravity calculation and validation  
-- [ ] Hover stability tuning  
-- [ ] Transition control implementation  
-- [ ] Flight testing and data collection  
-
----
 
 ## Engineering Challenges
 
