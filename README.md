@@ -42,7 +42,13 @@ i made it to be or have :
 - **Lift Motors:** 4 × A2212 
 - **Cruise Motor:** 1 × A2212
 - **Battery:** 3s 2200mah 30C ( estimated flight time: 17min )  
-- **Flight Controller:** DakeFpv f722 X6 ( any flightcontroller will work )  
+- **Flight Controller:** DakeFpv f722 X6 ( any flightcontroller will work )
+
+---
+
+## Firmware
+
+the Firmware thats going to run is Inav its a lighweight program that is capable of autonomously fly the uav to pre-programmed waypoint or loiter ( always wanted to do this imagine letting go of the transmitter and the plane continue to fly itself thats literally magic ) 
 
 ---
 
