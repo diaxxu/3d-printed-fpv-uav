@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="Pics/logo1.png" alt="Plane Front" />
+   <img src="Pics/logo2.png" alt="Plane Front" />
 </p>
 
 ## Overview
