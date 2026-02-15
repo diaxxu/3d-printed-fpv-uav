@@ -1,48 +1,48 @@
 # VTOL FPV Fixed-Wing UAV Project
+![Plane Front](Pics/plane_front.png)
 
 ## Overview
 
-This project is a 3d printed VTOL (Vertical Take-Off and Landing) fixed-wing UAV with FPV ( First Person View )  
+This project is a 3d printed VTOL (Vertical Take-Off and Landing) fixed-wing UAV with FPV (First Person View)  
 It combines quad lift motors for vertical flight ( kinda like a drone ) but with a additional forward propulsion motor for efficient cruise.
-
-The objective is to design, build, and validate a structurally robust aircraft capable of stable hover, controlled transition, and forward flight.
+I built this project to learn how to properly design, build a UAV (Unmanned Aerial Aircraft)
 
 ---
 
-## Key Features
+## Plane Features
 
-- High-wing configuration for passive roll stability  
-- 3d printed fuselage and wings  
+- High-wing configuration
+- 3d printed fuselage and wings (97% of the plane is 3d printed)  
 - Quad vertical lift motors for VTOL capability  
 - Nose-mounted motor for cruise propulsion  
 - V tail configuration  
 - Back fin designed for stability in forward flight at moderate speed
-- easy access and mounting servo in the fuselage thanks to a BWD canopy
+- easy access for mounting servo in the fuselage thanks to a BWD CAN and a FWD canopy
 
 ---
 
 ## Design Objectives
-
+i made it to be or have : 
 - Stable hover and smooth transition to forward flight  
 - High structural stiffness with minimal weight  
 - Efficient cruise performance  
 - Predictable aerodynamic behavior at low Reynolds numbers  
-- Modular architecture for maintenance and upgrades  
+- Modular fuselage for maintenance and upgrades  
 
 ---
 
-## Technical Specifications (Preliminary)
+## Technical Specifications 
 
 - **Wingspan:** 1300mm
 - **Wing Area:** 0.286 m²
 - **Wing loading:** 59 g/dm²
-- **estimated stall speed:** 26 km/h ( quite high but its understandable you have 4 unused motor on your wing ) 
+- **estimated stall speed:** 26 km/h ( quite high but its understandable since you have 4 unused motor on your wing ) 
 - **Airfoil:** SS ( Semi-Symmetrical)
-- **Estimated Weight:** 1700g  
+- **Estimated Weight:** 2046.458g  
 - **Lift Motors:** 4 × A2212 
 - **Cruise Motor:** 1 × A2212
 - **Battery:** 3s 2200mah 30C ( estimated flight time: 17min )  
-- **Flight Controller:** Dakefpv f722 X6 ( any flightcontroller will work )  
+- **Flight Controller:** DakeFpv f722 X6 ( any flightcontroller will work )  
 
 ---
 
@@ -53,6 +53,22 @@ The objective is to design, build, and validate a structurally robust aircraft c
 - Fully 3d printed wing structure  
 - mechanical aileron rolling on axis
 
+---
+
+
+
+## COOL Pics
+
+![Plane VIS](Pics/VIS.png)
+-
+![PALEN](Pics/PALEN.png)
+-
+![PALEN](Pics/ANA.png)
+-
+![PALEN](Pics/FRONT.png)
+THATS SO SLICK
+-
+![PALEN](Pics/SIDE.png)
 ---
 
 ## Development Roadmap
@@ -77,9 +93,29 @@ The objective is to design, build, and validate a structurally robust aircraft c
 
 ## Future Improvements
 
-- Custom flight controller board 
-
+- Custom flight controller board
+  
 ---
+
+## BoM ( secret sauce!!) 
+ 
+| Component | Specification | Quantity | Price  | Link    |
+|-----------|--------------|----------|---------|---------|
+| set of motor, esc and propellers        |    A2212 1000KV / 30amp esc / 23cm props         |  4        |    61.41$     |     https://a.aliexpress.com/_EJaQqYY   |
+|     fpv    |    camera with vtx and google          |    1      |  87.58$       |  https://a.aliexpress.com/_EuSo3te      |  
+|    telemetry      |      lora LR02 ASR6601 (10km range)      |   1    |       25.62$  |     [https://a.aliexpress.com/_EJKOflA](https://a.aliexpress.com/_EJNQwhK)    |   
+|     servo      |      sg90   (180deg)    |    10      |   15.65$      |   https://a.aliexpress.com/_EHJRpG8      | 
+|       carbon fiber tube    |     9x7x500mm         |    6     |    40.83$     |       https://a.aliexpress.com/_EH2rwjI  | 
+|    servo rods       |       19cm 1.2mm       |    50      |       7.55$  |     https://a.aliexpress.com/_EJKOflA    |   
+|    copper wire (for signal and fc)     |       10m (24awg) yellow    | 1     |       4.6$  |    [ https://a.aliexpress.com/_EzUnszi)  ](https://a.aliexpress.com/_EzUnszi)  |  
+|    copper wire (for batteries)       |       5m (18awg) black     |   1      |       5.36$  |    [ https://a.aliexpress.com/_EJKOflA](https://a.aliexpress.com/_EztPdHO)    |   
+|    3d printing       |   2046.458g   PLA    |   1    |       150$  |     3d printing service (1g=0.11$) i will pay the rest from my pockets |  
+
+i already own 1 flightcontroller , 1 motor , 1 esc , 1 battery, 1 gps and a receiver and transmitter 
+
+### the TOTAL : 398.6$ 
+i tried to reduce cost as much but 3d printing literally is so expensive in morocco if i order from internationnal manufacturer i get hit with the tax and shipping cost i believe this is the cheapest choice that i have 
+
 
 ## Disclaimer
 
