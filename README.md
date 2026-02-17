@@ -5,7 +5,11 @@
    <img src="Pics/logo2.png" alt="Plane Front" />
 </p>
 
-discord server : https://discord.gg/rtFu4ADm9m
+### discord server : https://discord.gg/rtFu4ADm9m
+
+
+
+
 ## Overview
 
 This project is a 3d printed VTOL (Vertical Take-Off and Landing) fixed-wing UAV with FPV (First Person View)  
